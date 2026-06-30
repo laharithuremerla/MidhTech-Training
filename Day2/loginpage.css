@@ -1,0 +1,90 @@
+*{
+     margin:0;
+     padding:0;
+}
+body{
+    font:200 30px;
+    background:white
+
+    
+
+}
+header{
+    color:rgb(210, 208, 208);
+    padding: 1em;
+    background-color: #1b1313;
+}
+
+ nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-left: 600px;
+
+}
+
+nav ul li a {
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+
+    justify-content:flex-end;
+    gap : 100px;
+
+}
+
+nav ul li a:hover {
+    color: rgb(199, 199, 106);
+    text-decoration: underline;
+}
+header img{
+    width: 200px;
+    height: 50x;
+
+    margin-right: 1em;
+}
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+left: 0;
+}
+
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-icons a:hover {
+  color: #ffcc00;
+}
+
+.footer-icons i {
+  margin-right: 8px;
+}
+.main-section{
+    padding: 300px;
+    margin: 20px;
+    text-align: center;
+
+}
+.midhtech{
+    color: rgb(21, 20, 20);
+    font-size: 50px;
+       padding: 20px;
+       margin: 20px; 
+}
