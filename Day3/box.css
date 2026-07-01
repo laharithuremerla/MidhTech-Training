@@ -1,0 +1,29 @@
+/* #width{
+    width:200px;
+    background-color:blue;
+}
+#padding{
+    padding:20px;
+    background-color:yellow;
+}
+#margin{
+    margin:10px;
+    background-color:orange;
+}
+#border{
+    border:2px;
+    background-color:green;
+} */
+ *{
+    box-sizing:content-box;
+ }
+ .box{
+    width:250px;
+    padding:50px;
+    border: 7px solid black;
+    /* margin: 30px; */
+    background-color:#87CEEB;
+    font-size:20px;
+    
+
+ }
