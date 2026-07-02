@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#f4f4f4;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+.container{
+
+    width:500px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+
+}
+
+h1{
+
+    margin-bottom:20px;
+    color:#333;
+
+}
+
+.input-section{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+input{
+
+    flex:1;
+
+    padding:10px;
+
+    font-size:16px;
+
+    border:1px solid gray;
+
+    border-radius:5px;
+
+}
+
+button{
+
+    padding:10px 20px;
+
+    background:green;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:darkgreen;
+
+}
+
+h2{
+
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+li{
+
+    display:flex;
+/* */
+    justify-content:space-between;
+
+    align-items:center;
+/* 
+    background:#eeeeee; */
+
+    padding:12px;
+
+    margin-bottom:10px;
+
+    border-radius:5px;
+
+}
+
+.deleteBtn{
+
+    background:red;
+
+    padding:8px 15px;
+
+}
+
+.deleteBtn:hover{
+
+    background:darkred;
+
+}
+
+/* Responsive */
+
+@media(max-width:600px){
+
+.container{
+
+width:90%;
+
+}
+
+.input-section{
+
+flex-direction:column;
+
+}
+
+button{
+
+width:100%;
+
+}
+
+}
